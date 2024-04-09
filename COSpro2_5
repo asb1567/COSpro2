@@ -1,0 +1,64 @@
+#include <stdio.h>
+
+int main(void)
+{
+	float num1;
+	double num2;
+	long double num3;
+
+	printf("실수 입력1 ( e표기법으로 ) :");
+	scanf_s("%f", &num1);
+	printf("입력한 실수 %f \n", num1);
+
+	printf("실수 입력2 ( e표기법으로 ) :");
+	scanf_s("%lf", &num2);
+	printf("입력한 실수 %lf \n", num2);
+
+	printf("실수 입력3 ( e표기법으로 ) :");
+	scanf_s("%Lf", &num3);
+	printf("입력한 실수 %Lf \n", num3);
+
+	return 0;
+}
+
+//printf("test\" i am a student \"test\b \n");
+
+/*
+	int myAge = -12;
+	printf("my age %d, %o, %#o, %#x, %#X \n", myAge, myAge, myAge, myAge, myAge);
+*/
+
+/*
+	printf(" %f \n", 0.1234);
+	printf(" %e \n", 0.1234);
+	printf(" %f \n", 0.123456789);
+	printf(" %e \n", 0.123456789);
+*/
+
+/*
+	double d1 = 1.23e-3; // 0.00123
+	double d2 = 1.23e-4; // 0.000123
+	double d3 = 1.23e-5; // 0.0000123
+	double d4 = 1.23e-6; // 0.00000123
+
+	printf("%g \n", d1);
+	printf("%g \n", d2);
+	printf("%g \n", d3);
+	printf("%g \n", d4);
+*/
+
+//printf("%s %c \n", "AAAA", 'd');
+
+/*
+	printf("%-8s %14s %5s \n", "이 름", "미래모빌리티", "학년");
+	printf("%-8s %14s %5s \n", "안성빈", "미래모빌리티", "1");
+*/
+
+/*
+	int num1, num2, num3;
+
+	printf("세 개의 정수를 입력: ");
+	scanf_s("%d %o %x", &num1, &num2, &num3);
+	printf("입력된 정수 10진수 출력: ");
+	printf("%d %d %d \n", num1, num2, num3);
+*/
